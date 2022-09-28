@@ -1,0 +1,32 @@
+{
+  "name": "mapa-brasil-covid",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "lint": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chroma-js": "^2.1.0",
+    "core-js": "^3.6.5",
+    "d3": "^6.5.0",
+    "leaflet": "^1.7.1",
+    "leaflet-boundary-canvas": "^1.0.0",
+    "moment": "^2.29.1",
+    "vue": "^2.6.11",
+    "vue-good-table": "^2.21.3",
+    "vue-i18n": "^8.22.4",
+    "vue2-leaflet": "^2.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
